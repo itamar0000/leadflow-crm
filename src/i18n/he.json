@@ -1,0 +1,128 @@
+{
+  "app": {
+    "name": "LeadFlow",
+    "tagline": "ניהול לידים חכם למעצבות שיער ומאפרות"
+  },
+  "nav": {
+    "home": "בית",
+    "pipeline": "לידים",
+    "clients": "לקוחות",
+    "revenue": "הכנסות",
+    "settings": "הגדרות"
+  },
+  "stages": {
+    "new": "פנייה חדשה",
+    "quoted": "הצעת מחיר נשלחה",
+    "booked": "נקבעה פגישה",
+    "done": "טופל",
+    "followup": "מעקב נדרש"
+  },
+  "services": {
+    "תסרוקת": "תסרוקת",
+    "צביעה": "צביעה",
+    "איפור": "איפור",
+    "איפור כלה": "איפור כלה",
+    "טיפול שיער": "טיפול שיער",
+    "הארכות": "הארכות",
+    "אחר": "אחר"
+  },
+  "sources": {
+    "whatsapp": "וואטסאפ",
+    "instagram": "אינסטגרם",
+    "referral": "המלצה",
+    "returning": "לקוחה חוזרת",
+    "other": "אחר"
+  },
+  "dashboard": {
+    "activeLeads": "לידים פעילים",
+    "weekAppointments": "פגישות השבוע",
+    "monthRevenue": "הכנסות החודש",
+    "needsFollowup": "דורשים מעקב",
+    "todayReminders": "תזכורות להיום",
+    "noReminders": "אין תזכורות להיום 🎉",
+    "welcome": "שלום"
+  },
+  "lead": {
+    "addLead": "ליד חדש",
+    "clientName": "שם הלקוחה",
+    "phone": "טלפון",
+    "service": "סוג שירות",
+    "appointmentDate": "תאריך פגישה",
+    "notes": "הערות",
+    "source": "מקור הפנייה",
+    "followUpDate": "תאריך מעקב",
+    "referredBy": "הופנתה ע\"י",
+    "save": "שמור",
+    "cancel": "ביטול",
+    "delete": "מחק",
+    "edit": "עריכה",
+    "call": "התקשר",
+    "whatsapp": "וואטסאפ",
+    "moveStage": "העבר שלב",
+    "amountPaid": "סכום ששולם",
+    "totalSpent": "סה\"כ הוצאות",
+    "serviceHistory": "היסטוריית שירותים",
+    "noHistory": "אין היסטוריה עדיין",
+    "addAppointment": "הוסף שירות",
+    "amount": "סכום",
+    "selectService": "בחרי סוג שירות",
+    "selectSource": "בחרי מקור פנייה",
+    "namePlaceholder": "שם מלא",
+    "phonePlaceholder": "050-0000000",
+    "notesPlaceholder": "הערות נוספות..."
+  },
+  "revenue": {
+    "title": "הכנסות",
+    "totalRevenue": "סה\"כ הכנסות",
+    "monthlyBreakdown": "פירוט חודשי",
+    "completedAppointments": "פגישות שהושלמו",
+    "noData": "אין נתונים עדיין",
+    "enterAmount": "הכנס סכום"
+  },
+  "clients": {
+    "title": "לקוחות",
+    "search": "חיפוש לקוחה...",
+    "noClients": "אין לקוחות עדיין",
+    "allClients": "כל הלקוחות"
+  },
+  "settings": {
+    "title": "הגדרות",
+    "businessName": "שם העסק",
+    "ownerName": "שם הבעלים",
+    "language": "שפה",
+    "hebrew": "עברית",
+    "english": "English",
+    "exportCSV": "ייצוא לקובץ CSV",
+    "clearData": "מחק את כל הנתונים",
+    "clearConfirm": "האם את בטוחה? כל הנתונים יימחקו לצמיתות.",
+    "clearSuccess": "כל הנתונים נמחקו",
+    "exportSuccess": "הקובץ הורד בהצלחה"
+  },
+  "onboarding": {
+    "welcome": "ברוכה הבאה ל-LeadFlow! 💇‍♀️",
+    "welcomeDesc": "האפליקציה שתעזור לך לנהל את הלקוחות והלידים שלך במקום אחד — בלי להתבלבל בוואטסאפ",
+    "pipeline": "נהלי את הלידים שלך בקלות",
+    "pipelineDesc": "גררי כרטיסי לידים בין שלבים — מפנייה חדשה ועד טיפול שהושלם. הכל ברור ומסודר",
+    "getStarted": "בואי נתחיל! ✨",
+    "getStartedDesc": "הוספנו כמה לידים לדוגמה כדי שתוכלי לראות איך זה עובד. את תמיד יכולה למחוק אותם",
+    "next": "הבא",
+    "skip": "דלג",
+    "start": "בואי נתחיל"
+  },
+  "toast": {
+    "leadAdded": "ליד נוסף בהצלחה ✓",
+    "leadUpdated": "ליד עודכן בהצלחה ✓",
+    "leadDeleted": "ליד נמחק",
+    "stageMoved": "הליד הועבר בהצלחה",
+    "appointmentAdded": "שירות נוסף בהצלחה ✓"
+  },
+  "common": {
+    "currency": "₪",
+    "save": "שמור",
+    "cancel": "ביטול",
+    "delete": "מחק",
+    "confirm": "אישור",
+    "close": "סגור",
+    "back": "חזרה"
+  }
+}

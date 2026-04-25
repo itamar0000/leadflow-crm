@@ -1,0 +1,128 @@
+{
+  "app": {
+    "name": "LeadFlow",
+    "tagline": "Smart lead management for hair & makeup artists"
+  },
+  "nav": {
+    "home": "Home",
+    "pipeline": "Leads",
+    "clients": "Clients",
+    "revenue": "Revenue",
+    "settings": "Settings"
+  },
+  "stages": {
+    "new": "New Inquiry",
+    "quoted": "Quoted",
+    "booked": "Booked",
+    "done": "Done",
+    "followup": "Follow-up"
+  },
+  "services": {
+    "תסרוקת": "Haircut",
+    "צביעה": "Coloring",
+    "איפור": "Makeup",
+    "איפור כלה": "Bridal Makeup",
+    "טיפול שיער": "Hair Treatment",
+    "הארכות": "Extensions",
+    "אחר": "Other"
+  },
+  "sources": {
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "referral": "Referral",
+    "returning": "Returning Client",
+    "other": "Other"
+  },
+  "dashboard": {
+    "activeLeads": "Active Leads",
+    "weekAppointments": "This Week",
+    "monthRevenue": "Monthly Revenue",
+    "needsFollowup": "Needs Follow-up",
+    "todayReminders": "Today's Reminders",
+    "noReminders": "No reminders for today 🎉",
+    "welcome": "Hello"
+  },
+  "lead": {
+    "addLead": "New Lead",
+    "clientName": "Client Name",
+    "phone": "Phone",
+    "service": "Service Type",
+    "appointmentDate": "Appointment Date",
+    "notes": "Notes",
+    "source": "Lead Source",
+    "followUpDate": "Follow-up Date",
+    "referredBy": "Referred By",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "moveStage": "Move Stage",
+    "amountPaid": "Amount Paid",
+    "totalSpent": "Total Spent",
+    "serviceHistory": "Service History",
+    "noHistory": "No history yet",
+    "addAppointment": "Add Service",
+    "amount": "Amount",
+    "selectService": "Select service type",
+    "selectSource": "Select lead source",
+    "namePlaceholder": "Full name",
+    "phonePlaceholder": "050-0000000",
+    "notesPlaceholder": "Additional notes..."
+  },
+  "revenue": {
+    "title": "Revenue",
+    "totalRevenue": "Total Revenue",
+    "monthlyBreakdown": "Monthly Breakdown",
+    "completedAppointments": "Completed Appointments",
+    "noData": "No data yet",
+    "enterAmount": "Enter amount"
+  },
+  "clients": {
+    "title": "Clients",
+    "search": "Search client...",
+    "noClients": "No clients yet",
+    "allClients": "All Clients"
+  },
+  "settings": {
+    "title": "Settings",
+    "businessName": "Business Name",
+    "ownerName": "Owner Name",
+    "language": "Language",
+    "hebrew": "עברית",
+    "english": "English",
+    "exportCSV": "Export to CSV",
+    "clearData": "Clear All Data",
+    "clearConfirm": "Are you sure? All data will be permanently deleted.",
+    "clearSuccess": "All data cleared",
+    "exportSuccess": "File downloaded successfully"
+  },
+  "onboarding": {
+    "welcome": "Welcome to LeadFlow! 💇‍♀️",
+    "welcomeDesc": "The app that helps you manage your clients and leads in one place — no more WhatsApp chaos",
+    "pipeline": "Manage your leads with ease",
+    "pipelineDesc": "Drag lead cards between stages — from new inquiry to completed appointment. Clear and organized",
+    "getStarted": "Let's get started! ✨",
+    "getStartedDesc": "We added some sample leads so you can see how it works. You can always delete them",
+    "next": "Next",
+    "skip": "Skip",
+    "start": "Get Started"
+  },
+  "toast": {
+    "leadAdded": "Lead added successfully ✓",
+    "leadUpdated": "Lead updated successfully ✓",
+    "leadDeleted": "Lead deleted",
+    "stageMoved": "Lead moved successfully",
+    "appointmentAdded": "Service added successfully ✓"
+  },
+  "common": {
+    "currency": "₪",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "close": "Close",
+    "back": "Back"
+  }
+}
