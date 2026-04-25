@@ -38,6 +38,7 @@ export interface Lead {
   source: LeadSource;
   appointmentDate?: string; // ISO string
   followUpDate?: string;    // ISO string
+  reminderAt?: string;      // ISO string — when to fire reminder notification
   notes?: string;
   referredBy?: string;
   amountPaid?: number;

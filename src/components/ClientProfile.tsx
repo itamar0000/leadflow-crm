@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { useLeadsStore } from "../store/useLeadsStore";
+import { useAuth } from "../lib/auth";
 import { format, parseISO } from "date-fns";
 import { he, enUS } from "date-fns/locale";
 import { SERVICE_TYPES, STAGE_ORDER, LEAD_SOURCES } from "../types";
@@ -14,6 +15,7 @@ export default function ClientProfile() {
   const navigate = useNavigate();
   const { t, i18n } = useTranslation();
   const locale = i18n.language === "he" ? he : enUS;
+  const { user } = useAuth();
 
   const lead = useLeadsStore((s) => s.leads.find((l) => l.id === id));
   const updateLead = useLeadsStore((s) => s.updateLead);
@@ -52,6 +54,7 @@ export default function ClientProfile() {
   const totalSpent = lead.history.reduce((sum, h) => sum + h.amount, 0);
 
   const handleSaveEdit = () => {
+    if (!user) return;
     updateLead(lead.id, {
       name: editName,
       phone: editPhone,
@@ -62,19 +65,19 @@ export default function ClientProfile() {
       referredBy: editReferredBy || undefined,
       appointmentDate: editAppointmentDate || undefined,
       followUpDate: editFollowUpDate || undefined,
-    });
+    }, user.id);
     setIsEditing(false);
     toast.success(t("toast.leadUpdated"));
   };
 
   const handleAddService = () => {
-    if (!newServiceAmount) return;
+    if (!newServiceAmount || !user) return;
     addAppointment(lead.id, {
       date: newServiceDate,
       service: newServiceType,
       amount: Number(newServiceAmount),
       notes: newServiceNotes || undefined,
-    });
+    }, user.id);
     setShowAddService(false);
     setNewServiceAmount("");
     setNewServiceNotes("");

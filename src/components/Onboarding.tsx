@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { useLeadsStore } from "../store/useLeadsStore";
+import { useAuth } from "../lib/auth";
 
 const slides = [
   {
@@ -25,9 +26,12 @@ export default function Onboarding() {
   const [current, setCurrent] = useState(0);
   const { t } = useTranslation();
   const { seedData, setOnboarded } = useLeadsStore();
+  const { user } = useAuth();
 
   const handleFinish = () => {
-    seedData();
+    if (user) {
+      seedData(user.id);
+    }
     setOnboarded();
   };
 
